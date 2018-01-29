@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" runat="server" media="screen" href="~/Content/bootstrap-lumen.css" />
+</head>
+<body>
+    @Html.Partial("_navBar");
+    <div class="container">
+        <h2>Welcome to Vidly</h2>
+        @RenderBody()
+    </div>
+</body>
+</html>
